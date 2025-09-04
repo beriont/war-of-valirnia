@@ -1,0 +1,269 @@
+body {
+    background-color: #fff;
+    color: #1d2530;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    max-width: 90%;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+h1 {
+    color: #fff;
+}
+
+h2, h3 {
+    color: #b02d2d;
+    text-align: center;
+}
+
+h2 {
+    font-size:30px;
+    margin: 5px;
+}
+
+h3 {
+    margin: 0;
+}
+
+header {
+    background-color: #b02d2d;
+    color: #fff;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+header h1 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header h1 a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #b02d2d;
+    color: #fff;
+    text-align: center;
+    font-size: 0.8em;
+    line-height: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 35px;
+}
+
+#accman {
+    float: right;
+    margin-right: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    text-decoration: none;
+    background-color: #601919;
+    border-radius: 10px;
+    margin: 0 5px;
+    padding: 15px 15px;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: 0.1s;
+}
+
+.button:hover {
+    background-color: #cf5555;
+}
+
+.slogan {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 50px;
+}
+.desc {
+    font-size: 20px;
+    text-align: center;
+}
+
+.formbutton a {
+    padding-top: 19px;
+    padding-bottom: 19px;
+}
+
+table {
+    max-width: 60%;
+    border: 1px solid red;
+    margin: 0 auto;
+    background-color: rgb(170, 0, 0);
+    font-size: 25px;
+}
+
+th{
+    border: 1px solid red;
+    padding: 15px;
+    background-color: rgb(125, 0, 0);
+    color: white;
+}
+
+td {
+    border: 1px solid red;
+    background-color: white;
+    text-align: center;
+}
+
+.showpage {
+    text-align: center;
+    margin: 0;
+}
+
+.gamebuttons {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+ul {
+    list-style-position: inside;
+    text-align: center;
+    margin-left: -50px;
+    margin-top: 0;
+}
+
+form, form input {
+    text-align: center;
+}
+
+a:any-link.redlink {
+    color: #b02d2d;
+}
+
+.error {
+    font-size: 12px;
+    color: #b02d2d;
+}
+
+.usertop {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+table img {
+    max-width: 400px;
+    vertical-align: middle;
+}
+
+.game-container {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+}
+
+.inner-container {
+    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.place-name {
+    color: white;
+}
+
+.hero-table {
+    border: 1px solid teal;
+    margin: 0 auto;
+    background-color: rgb(0, 170, 135);
+    font-size: 25px;
+}
+
+.hero-table th{
+    border: 1px solid teal;
+    padding: 15px;
+    background-color: rgb(0, 100, 100);
+    color: white;
+}
+
+.hero-table td {
+    border: 1px solid teal;
+}
+
+.game-page {
+    padding: 10px;
+    background-color: #b02d2d;
+    width: fit-content;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+.characters {
+    display: flex;
+}
+
+#versus {
+    color: #b02d2d;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 0;
+    margin: 25px 0 0 0;
+    text-shadow: 0 0 5px #ffffff, 0 0 5px #ffffff;
+}
+
+.winner {
+    box-shadow: 0 0 40px rgba(0, 180, 0, 1), 0 0 40px rgba(0, 180, 0, 1);
+}
+
+.loser {
+    box-shadow: 0 0 40px rgba(180, 0, 0, 1), 0 0 40px rgba(180, 0, 0, 1);
+}
+
+.history-container {
+    margin: 20px auto 15px auto;
+    width: fit-content;
+    height: 180px;
+    overflow: hidden;
+    border: 5px solid red;
+}
+
+.history {
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(195, 240, 255, 0.5);
+}
+
+.history-entry {
+    margin: 5px auto;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: #571717;
+}
+
+#endgame {
+    font-size: 40px;
+    margin: 0;
+    font-weight: bold;
+    color: white;
+}
